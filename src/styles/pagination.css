@@ -1,0 +1,22 @@
+div.pagination {
+    width: 200px;
+    float: right;
+}
+
+div.pagination button{
+    height: 35px;
+    font-size: 18px;
+    border: none;
+    background: transparent;
+}
+
+.arrow-left::before {
+     content: '\25c4';
+     padding-right: 0.5em;
+}
+
+
+.arrow-right::after {
+     content: '\25ba';
+     padding-left: 0.5em;
+ }

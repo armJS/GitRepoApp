@@ -1,0 +1,25 @@
+.header {
+    height: 50px;
+    background: lightgray;
+    padding: 10px;
+    color: white;
+}
+
+.header li{
+    display: inline-block;
+
+    font-size: 30px;
+}
+
+.header a {
+    text-decoration:none;
+}
+
+.header a.active {
+    color: white;
+}
+
+.header .header--user {
+    width: 40%;
+    border-right: 2px solid black;
+}

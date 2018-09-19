@@ -1,0 +1,15 @@
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.searchBlock {
+    margin: 30px;
+}
+
+.searchBlock input {
+    width: 250px;
+    height: 30px;
+    border-radius: 3px;
+}
